@@ -1,6 +1,8 @@
 module checkoutservice
 
-go 1.18
+go 1.21
+
+toolchain go1.23.2
 
 require (
 	cloud.google.com/go/profiler v0.3.0
@@ -61,7 +63,7 @@ require (
 	google.golang.org/api v0.114.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
-	google.golang.org/protobuf v1.30.0 // indirect
+	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
